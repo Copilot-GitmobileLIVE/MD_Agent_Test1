@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md-test-agent-plugin"
+version = "0.1.0"
+description = "Installable wrapper for the MD_Test custom agent definition."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+md-test-agent = "md_test_agent_plugin.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["md_test_agent_plugin*"]
+
+[tool.setuptools.package-data]
+md_test_agent_plugin = ["agents/*.md"]
