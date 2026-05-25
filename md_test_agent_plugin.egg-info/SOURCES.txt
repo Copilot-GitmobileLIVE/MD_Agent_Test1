@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+md_test_agent_plugin/__init__.py
+md_test_agent_plugin/__main__.py
+md_test_agent_plugin/cli.py
+md_test_agent_plugin/installer.py
+md_test_agent_plugin.egg-info/PKG-INFO
+md_test_agent_plugin.egg-info/SOURCES.txt
+md_test_agent_plugin.egg-info/dependency_links.txt
+md_test_agent_plugin.egg-info/entry_points.txt
+md_test_agent_plugin.egg-info/top_level.txt
+md_test_agent_plugin/agents/MD_Test.agent.md
+tests/test_installer.py

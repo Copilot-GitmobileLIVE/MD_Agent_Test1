@@ -1,0 +1,2 @@
+[console_scripts]
+md-test-agent = md_test_agent_plugin.cli:main
